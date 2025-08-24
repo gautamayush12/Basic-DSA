@@ -1,7 +1,7 @@
 package String;
 
 public class leftMostRepeatingChar{
-    public int leftRepChar(String str){
+    public static int leftRepChar(String str){
         //Brute Force Approach
         // for(int i=0; i<str.length(); i++){
         //     for(int j=0; j<str.length(); j++){
@@ -26,6 +26,7 @@ public class leftMostRepeatingChar{
         return -1;
     }
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int s = leftRepChar("abbcdeab");
+        System.out.println(s);
     }
 }

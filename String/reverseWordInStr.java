@@ -1,7 +1,7 @@
 package String;
 //Leetcode 151
 public class reverseWordInStr{
-    public static void revStrWord(String str){
+    public static String revStrWord(String str){
         String[] newStr = str.trim().split("\\s+");
         String[] newArr = new String[newStr.length];
         int index = 0;
@@ -10,6 +10,7 @@ public class reverseWordInStr{
             index++;
         }
         String result = String.join(" ", newArr);
+        return result;
     }
     public static void main(String[] args) {
         System.out.println("Hello World!");
