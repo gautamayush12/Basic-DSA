@@ -7,10 +7,10 @@ public class moveZeroesEnd{
                 arr[idx] = arr[i];
                 idx++;
             }
-            while(idx<0){
-                arr[idx] = 0;
-                idx++;
-            }
+        }
+        while(idx<n){
+            arr[idx] = 0;
+            idx++;
         }
     }
     public static void main(String[] args) {
