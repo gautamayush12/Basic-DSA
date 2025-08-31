@@ -1,7 +1,7 @@
 package String;
 
 class firstUniqChar {
-    public int firstUniqChar(String s) {
+    public int firstUniChar(String s) {
         for(int i=0; i<s.length(); i++){
             boolean isUnique = true;
             for(int j=0; j<s.length(); j++){
