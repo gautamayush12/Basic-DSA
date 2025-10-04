@@ -5,7 +5,7 @@
 //Suppose (l,r) are the left and right index of subarray
 
 //Since we know that, prefix[i] = arr[0]+arr[1]+arr[2]+...+arr[i-1]+arr[i]
-//So, sum of subarray (l,r) = prefix[r] - prefix[l-1] (if l>0) or prefix[r] (if l==0)
+//So, (if l>0) sum of subarray (l,r) = prefix[r] - prefix[l-1] and (if l==0) then it's prefix[r]
 //Or we can say that prefix[r] = sum of subarray (l,r) + prefix[l-1] 
 //So, if sum of subarray (l,r) = 0 then prefix[r] = prefix[l-1]
 //So, if we find any two prefix sums which are equal then we can say that there exists a subarray with sum 0
