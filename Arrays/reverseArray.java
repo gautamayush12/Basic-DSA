@@ -1,3 +1,5 @@
+package Arrays;
+
 public class reverseArray{
     public static void revArr(int[] arr){
         int left = 0;

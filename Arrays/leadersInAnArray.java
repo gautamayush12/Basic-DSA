@@ -1,3 +1,5 @@
+package Arrays;
+
 public class leadersInAnArray{
     public static void method(int[] arr){
         

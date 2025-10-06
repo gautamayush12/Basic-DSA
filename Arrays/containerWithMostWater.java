@@ -1,3 +1,5 @@
+package Arrays;
+
 public class containerWithMostWater{
     public static int mostWater(int[] arr){
         int n = arr.length;

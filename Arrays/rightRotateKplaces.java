@@ -1,3 +1,5 @@
+package Arrays;
+
 public class rightRotateKplaces{
     public static void rightRotate(int[] arr, int k){
       //1 Normal Approach 

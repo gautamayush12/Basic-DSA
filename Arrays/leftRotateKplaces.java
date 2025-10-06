@@ -1,3 +1,5 @@
+package Arrays;
+
 public class leftRotateKplaces{
     public static void leftRotate(int[] arr, int k){
         // int n = arr.length;

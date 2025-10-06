@@ -1,3 +1,5 @@
+package Arrays;
+
 public class removeDuplicatesMoreThenTwo{
     public static void remDupsTwice(int[] arr){
         int n = arr.length;

@@ -1,3 +1,5 @@
+package Arrays;
+
 public class findPairWithSum{
     public static int[] findGivenPairSum(int[] arr, int sum){
         int n = arr.length;

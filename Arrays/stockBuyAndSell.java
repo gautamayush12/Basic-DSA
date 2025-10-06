@@ -1,3 +1,5 @@
+package Arrays;
+
 public class stockBuyAndSell{
     public static void stockProbOne(int[] arr){
         int n = arr.length;

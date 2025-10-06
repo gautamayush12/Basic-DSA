@@ -1,3 +1,5 @@
+package Arrays;
+
 public class maxDiffProblem {
     public static void bruteForce(int[] arr){
         int n = arr.length;

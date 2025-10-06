@@ -1,3 +1,5 @@
+package Arrays;
+
 public class checkSorted{
     public static boolean chkSort(int[] arr){
         int n = arr.length;

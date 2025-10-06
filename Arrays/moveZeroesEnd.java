@@ -1,3 +1,5 @@
+package Arrays;
+
 public class moveZeroesEnd{
     public static void mvZerEnd(int[] arr){
         int n = arr.length;

@@ -1,3 +1,5 @@
+package Arrays;
+
 public class removeDups{
     public static void remDuplicates(int[] arr){
         int n = arr.length;

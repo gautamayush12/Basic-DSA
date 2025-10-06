@@ -1,3 +1,5 @@
+package Arrays;
+
 public class mergeTwoSortedArr{
     public static void mergeSortArr(int[] arr1, int[] arr2){
         int n = arr1.length;

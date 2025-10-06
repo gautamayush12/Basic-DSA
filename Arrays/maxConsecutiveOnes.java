@@ -1,3 +1,5 @@
+package Arrays;
+
 public class maxConsecutiveOnes{
     public static int maxCountOnes(int[] arr){
         int n = arr.length;

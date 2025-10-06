@@ -1,3 +1,5 @@
+package Arrays;
+
 public class longestEvenOddSubarray{
     public static int myFunc(int[] arr){
         int n = arr.length;
