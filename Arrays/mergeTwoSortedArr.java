@@ -2,32 +2,29 @@ package Arrays;
 
 public class mergeTwoSortedArr{
     public static void mergeSortArr(int[] arr1, int[] arr2){
-        int n = arr1.length;
-        int m = arr2.length;
-        int i = 0;
-        int j = 0;
-        int[] newArr = new int[n+m];
+        int n1 = arr1.length;
+        int n2 = arr2.length;
+        int ptr1 = 0;
+        int ptr2 = 0;
+        int[] merged = new int[n1+n2];
         int index = 0;
-        while(i<n && j<m){
-            if(arr1[i] >= arr2[j]){
-                newArr[index] = arr2[j];
-                index++;
-                j++;
+        while(ptr1<arr1.length && ptr2<arr2.length){
+            if(arr1[ptr1]<arr2[ptr2]){
+                merged[index++] = arr1[ptr1];
+                ptr1++;
             }else{
-                newArr[index] = arr1[i];
-                index++;
-                i++;
+                merged[index++] = arr2[ptr2];
+                ptr2++;
             }
         }
-        while(i<n){
-            newArr[index] = arr1[i];
-            index++;
-            i++;
+        //Merge Remaining Elements
+        while(ptr1<arr1.length){
+            merged[index++] = arr1[ptr1];
+            ptr1++;
         }
-        while(j<m){
-            newArr[index] = arr2[j];
-            index++;
-            j++;           
+        while(ptr2<arr2.length){
+            merged[index++] = arr2[ptr2];
+            ptr2++;
         }
     }
     public static void main(String[] args) {
